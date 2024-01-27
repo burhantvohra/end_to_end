@@ -1,0 +1,12 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Jan 27 15:37:41 2024
+
+@author: burha
+"""
+
+Flask
+matplotlib
+pandas
+numpy
+sklearn
