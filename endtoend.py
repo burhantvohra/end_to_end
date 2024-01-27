@@ -59,6 +59,10 @@ X_train = scaler.fit_transform(X_train)
 X_test = scaler.transform(X_test)
 X_train
 
+import pickle 
+pickle.dump(scaler, open('scaler.pkl', 'wb'))
+
+
 from sklearn.linear_model import LinearRegression
 regression = LinearRegression()
 regression.fit(X_train,Y_train)
